@@ -1,0 +1,73 @@
+img:hover {filter: grayscale(100%);}
+
+
+h2 {
+   animation-duration: 5s;
+   animation-name: aparecer;
+}
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 4;
+   }
+}
+
+.facebook:hover{
+  cursor: pointer;
+  transform: translateY(-6px);
+  transition: .3s ease;
+}
+
+.instagram:hover{
+ cursor: pointer;
+ transform: translateY(-6px);
+ transition: .3s ease;
+}
+
+.spotify:hover{	
+ cursor: pointer;
+ transform: translateY(-6px);
+ transition: .3s ease;
+
+}
+
+.youtube:hover{
+ cursor: pointer;
+ transform: translateY(-6px);
+ transition: .3s ease;
+}
+
+
+.parpadea {
+  
+  animation-name: parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+  -webkit-animation-name:parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-moz-keyframes parpadeo{  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}
+
+@-webkit-keyframes parpadeo {  
+  0% { opacity: 1.0; }
+  50% { opacity: 0.0; }
+   100% { opacity: 1.0; }
+}
+
+@keyframes parpadeo {  
+  0% { opacity: 1.0; }
+   50% { opacity: 0.0; }
+  100% { opacity: 1.0; }
+}

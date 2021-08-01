@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../scss/discografia.scss"
+    ],
+    "names": [],
+    "file": "discografia.min.css"
+}

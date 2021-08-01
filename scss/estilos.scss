@@ -1,0 +1,123 @@
+@import "fuentes";
+@import "variables";
+@import "animaciones";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	background-color: $background-color;
+	
+}
+
+a{
+	font-size: $font-size;
+	font-family: $fuentes;
+	color: $color-prinicipal;
+	cursor: pointer;	
+}
+
+.navbar {
+	text-shadow:  1px 1px rgb(168, 0, 0);
+}
+
+a:hover {
+	color: rgb(184, 0, 0);;
+	
+}
+
+
+
+@mixin titulo {
+	color: $color-prinicipal;
+	font-size: $font-size-titulos;
+	text-align: center;
+	font-family: $fuentes;
+	margin-bottom: 80px;
+	margin-top: 80px;
+	
+}
+
+.tituloSecciones{
+	@include  titulo; 
+	
+}
+
+.parpadea{
+	font-size: $font-size-parpadeo;
+	color: red;
+ }
+
+h3{
+	font-size: $font-size;
+	font-family: $fuentes;
+	color: rgb(228, 222, 222);
+
+}
+
+h6{
+	
+	font-family: $fuentes;
+	text-shadow:  2px 2px rgb(168, 0, 0);
+	color: rgb(228, 222, 222);
+}
+
+.card-img-top{
+	border:2px solid white;
+}
+
+#redes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	
+ }
+
+ .iframeDiscografia{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 20px;
+ }
+
+@media screen  and (max-width: 767px){
+	
+	header, main, footer, .discos{
+		padding-right: 10px;
+		padding-left: 10px;
+
+	}
+
+	.videos{
+		margin-right: -15px;
+	}
+
+	#youtube{
+		margin-bottom: 50px;
+	}
+
+
+}
+
+
+
+
+@media screen  and (max-width: 1024px){
+	
+	header, main, footer, .discos{
+		padding-right: 10px;
+		padding-left: 10px;
+
+	}
+
+
+}
+	
+
+
+
