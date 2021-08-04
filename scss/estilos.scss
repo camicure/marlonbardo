@@ -9,7 +9,8 @@
 }
 
 body{
-	background-color: $background-color;
+	background-image: url(../media/tunombre.jpg);
+	background-position: center;
 	
 }
 
@@ -84,6 +85,16 @@ h6{
 	align-items: center;
 	margin-bottom: 20px;
  }
+
+
+textarea{
+	resize: none;	
+}
+
+#form34, #form29, #form8{
+	border-color: red;
+}
+
 
 @media screen  and (max-width: 767px){
 	
