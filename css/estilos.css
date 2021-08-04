@@ -105,7 +105,7 @@ body {
   background-image: url(../media/tunombre.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
 }
 
 a {
@@ -135,16 +135,11 @@ a:hover {
 .parpadea {
   font-size: 2.5em;
   color: red;
+  font-family: "Maven Pro", sans-serif;
 }
 
 .afiche {
   width: 400px;
-}
-
-h3 {
-  font-size: 1.5em;
-  font-family: "Maven Pro", sans-serif;
-  color: #e4dede;
 }
 
 h6 {
@@ -192,6 +187,12 @@ textarea {
   border-color: red;
 }
 
+@media screen and (max-width: 500px) {
+  .poster {
+    margin-left: 15px;
+  }
+}
+
 @media screen and (max-width: 767px) {
   header, main, footer, .discos {
     padding-right: 10px;
@@ -202,12 +203,6 @@ textarea {
   }
   #youtube {
     margin-bottom: 50px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .poster {
-    margin-left: 15px;
   }
 }
 

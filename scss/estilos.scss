@@ -12,8 +12,7 @@ body{
 	background-image: url(../media/tunombre.jpg);
 	background-position:center;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
- 
+	background-attachment:scroll;
 	
 }
 
@@ -53,17 +52,13 @@ a:hover {
 .parpadea{
 	font-size: $font-size-parpadeo;
 	color: red;
+	font-family: $fuentes;
  }
 
- .afiche{
+.afiche{
 	 width: 400px;
  }
-h3{
-	font-size: $font-size;
-	font-family: $fuentes;
-	color: rgb(228, 222, 222);
 
-}
 
 h6{
 	
@@ -102,6 +97,12 @@ textarea{
 }
 
 
+@media screen  and (max-width: 500px){
+	.poster {
+		margin-left: 15px;
+	}
+}
+
 @media screen  and (max-width: 767px){
 	
 	header, main, footer, .discos{
@@ -119,12 +120,6 @@ textarea{
 	}
 
 
-}
-
-@media screen  and (max-width: 500px){
-	.poster {
-		margin-left: 15px;
-	}
 }
 
 
