@@ -33,7 +33,6 @@ a:hover {
 }
 
 
-
 @mixin titulo {
 	color: $color-prinicipal;
 	font-size: $font-size-titulos;
@@ -60,8 +59,7 @@ a:hover {
  }
 
 
-h6{
-	
+h6{	
 	font-family: $fuentes;
 	text-shadow:  2px 2px rgb(168, 0, 0);
 	color: rgb(228, 222, 222);
@@ -76,9 +74,9 @@ h6{
     justify-content: space-around;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 50px;
-	
+    margin-bottom: 50px;	
  }
+
 
  .iframeDiscografia{
 	display: flex;
@@ -107,7 +105,7 @@ textarea{
 
 @media screen  and (max-width: 767px){
 	
-	header, main, footer, .discos{
+	header, footer{
 		padding-right: 10px;
 		padding-left: 10px;
 
