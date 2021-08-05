@@ -58,7 +58,14 @@ a:hover {
 	 width: 400px;
  }
 
+ h3{
+	font-size: $font-size;
+	font-family: $fuentes;
+	color: rgb(255, 250, 250);
+	line-height: 1rem;
+	text-shadow:  1px 1px rgb(168, 0, 0);
 
+}
 h6{	
 	font-family: $fuentes;
 	text-shadow:  2px 2px rgb(168, 0, 0);
@@ -69,13 +76,7 @@ h6{
 	border:2px solid white;
 }
 
-#redes{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;	
- }
+
 
 
  .iframeDiscografia{
