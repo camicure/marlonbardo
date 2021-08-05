@@ -72,6 +72,14 @@ h6{
 	color: rgb(228, 222, 222);
 }
 
+h5, p{
+	font-family: $fuentes;
+	color: $color-afiche;
+}
+
+
+
+
 .card-img-top{
 	border:2px solid white;
 }
@@ -136,5 +144,15 @@ textarea{
 }
 	
 
+@media (min-width: 1200px) { 
+h3{
+	font-size: 2rem;
+}
+
+h2{
+	font-size: 2.5rem;
+}
+
+}	
 
 

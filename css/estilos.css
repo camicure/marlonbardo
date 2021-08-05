@@ -158,6 +158,11 @@ h6 {
   color: #e4dede;
 }
 
+h5, p {
+  font-family: "Maven Pro", sans-serif;
+  color: #f50d0d;
+}
+
 .card-img-top {
   border: 2px solid white;
 }
@@ -207,6 +212,15 @@ textarea {
   header, main, footer, .discos {
     padding-right: 10px;
     padding-left: 10px;
+  }
+}
+
+@media (min-width: 1200px) {
+  h3 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 2.5rem;
   }
 }
 /*# sourceMappingURL=estilos.css.map */
