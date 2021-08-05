@@ -99,13 +99,15 @@ h2 {
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 body {
   background-image: url(../media/tunombre.jpg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background-size: cover;
+  background-position-x: center;
+  background-attachment: local;
 }
 
 a {
