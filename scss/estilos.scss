@@ -85,7 +85,9 @@ h5, p{
 }
 
 
-
+.nuevoDisco{
+	border: 2px solid white;
+}
 
  .iframeDiscografia{
 	display: flex;
@@ -102,7 +104,6 @@ textarea{
 #form34, #form29, #form8{
 	border-color: red;
 }
-
 
 
 
@@ -156,7 +157,7 @@ textarea{
 }
 	
 
-@media screen  and  (min-width: 1200px) { 
+@media screen  and  (max-width: 1200px) { 
 
 h3{
 	font-size: 1.5rem;
@@ -180,3 +181,7 @@ body{
 	background-attachment: fixed;
 }
 }
+
+
+
+
