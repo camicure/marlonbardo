@@ -78,8 +78,6 @@ h5, p{
 }
 
 
-
-
 .card-img-top{
 	border:2px solid white;
 }
@@ -109,6 +107,14 @@ textarea{
 	 .nav-link{
 		 font-size: 1.5rem;
 	 }
+
+	  .direccion{
+		 font-size: 0.8rem;
+	 }
+
+	 .nuevaFecha{
+		 font-size: 1rem;
+	 }
 	
 }
 
@@ -116,7 +122,23 @@ textarea{
 	.nav-link{
 		font-size: 1.5rem;
 	}
+
+	.direccion{
+		font-size: 0.8rem;
+	}
+
+	.nuevaFecha{
+		font-size: 1rem;
+	}
+
+	.album{
+		font-size: 1rem;
+	}
 	
+	.año{
+		font-size: 0.8rem;
+
+	}
 }
 
 @media screen  and (max-width: 500px){
