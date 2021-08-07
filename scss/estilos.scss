@@ -105,12 +105,26 @@ textarea{
 	border-color: red;
 }
 
+@media screen and  (max-width: 360px){
+	 .nav-link{
+		 font-size: 1.5rem;
+	 }
+	
+}
 
+@media screen  and (max-width: 375px){
+	.nav-link{
+		font-size: 1.5rem;
+	}
+	
+}
 
 @media screen  and (max-width: 500px){
 	.poster {
 		margin-left: 15px;
 	}
+
+
 }
 
 @media screen  and (max-width: 767px){
