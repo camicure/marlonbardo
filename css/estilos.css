@@ -254,6 +254,18 @@ textarea {
     background-size: cover;
     background-attachment: fixed;
   }
+  .direccion {
+    font-size: 0.8rem;
+  }
+  .nuevaFecha {
+    font-size: 1rem;
+  }
+  .album {
+    font-size: 1rem;
+  }
+  .año {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 994px) {
