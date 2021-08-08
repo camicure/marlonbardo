@@ -204,6 +204,12 @@ textarea {
   .nuevaFecha {
     font-size: 1rem;
   }
+  .album {
+    font-size: 1rem;
+  }
+  .año {
+    font-size: 0.8rem;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -253,6 +259,9 @@ textarea {
     background-repeat: repeat;
     background-size: cover;
     background-attachment: fixed;
+  }
+  .nav-link {
+    font-size: 2rem;
   }
   .direccion {
     font-size: 0.8rem;
