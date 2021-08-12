@@ -125,13 +125,20 @@ textarea{
 	
 	.año{
 		font-size: 0.8rem;
-
+    
+		.glitch{
+			font-size: 1.5rem;
+		}
 	}
 	
 }
 
 @media screen  and (max-width: 375px){
 	.nav-link{
+		font-size: 1.5rem;
+	}
+
+	.glitch{
 		font-size: 1.5rem;
 	}
 
@@ -158,6 +165,10 @@ textarea{
 		margin-left: 15px;
 	}
 
+	.glitch{
+		font-size: 1.5rem;
+	}
+
 
 }
 
@@ -180,6 +191,9 @@ textarea{
 	background-repeat: repeat;
 	background-size: cover;
 	background-attachment: fixed;
+}
+.glitch{
+	font-size: 1.5rem;
 }
 }
 
@@ -208,11 +222,17 @@ textarea{
 	font-size: 0.8rem;
 
 }
+.glitch{
+	font-size: 1.5rem;
+}
 }
 
 @media screen  and (max-width: 994px){
 	.nav-link{
 		font-size: 1rem;
+	}
+	.glitch{
+		font-size: 1.5rem;
 	}
 
 }
@@ -255,6 +275,7 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
 }
 
 
